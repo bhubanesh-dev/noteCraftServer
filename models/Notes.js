@@ -20,7 +20,7 @@ const NotesSchema = new Schema({
   },
   favorite: {
     type: Boolean,
-    default: False,
+    default: false,
   },
   pinned: {
     type: Boolean,
